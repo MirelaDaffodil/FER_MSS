@@ -23,9 +23,10 @@ Install all dependencies with:
 
 
 pip install -r requirements.txt
-
 You also need:
+
 A webcam
+
 A valid Spotify Developer App (Client ID and Secret)
 
 📂 Folder Structure
@@ -43,25 +44,33 @@ FER_MSS/
     ├── surprise.mp3
     ├── disgust.mp3
     └── neutral.mp3
-    
 🚀 How to Run
 Clone this repo and open a terminal:
+
+
 git clone https://github.com/MirelaDaffodil/FER_MSS.git
 cd FER_MSS
-
 Install dependencies:
+
+
 pip install -r requirements.txt
 Set up Spotify credentials (Client ID, Secret, Redirect URI) in the code.
 
 Run the app:
-python fer_mss.py
 
+
+python fer_mss.py
 💡 How It Works
 The app detects your face and emotions in real-time.
+
 If the same emotion is maintained for 15 seconds, it freezes the detection.
+
 Based on the emotion:
+
 Tries to play a matching Spotify song
+
 If Spotify fails, plays a local MP3 fallback
+
 UI displays the emotion, confidence, song name, and history.
 
 🧑‍💻 Tech Stack
@@ -79,7 +88,7 @@ Pygame (for local MP3 playback)
 
 📷 Emotion Examples 
 Emotion	Caption	Music Type
-Happy 😊	Enjoy the moment!	- Upbeat track
+Happy 😊	Enjoy the moment! -	Upbeat track
 Sad 😢	It's okay to feel down sometimes -	Comforting melody
 Angry 😠	Take a deep breath and stay calm -	Calming sound
 Surprise 😲	Wow! That was unexpected! -	Energetic tune
@@ -89,6 +98,9 @@ Neutral 😐	A moment of calm and balance -	Relaxing track
 
 📌 Notes
 ESC toggles fullscreen mode
+
 Press “Try Again” to restart detection
+
 Emotion history is saved on exit
+
 Local files must exist in local_music/
