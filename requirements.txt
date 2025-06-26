@@ -1,0 +1,11 @@
+# Core Packages
+deepface==0.0.79
+opencv-python==4.8.0.76
+pillow==10.0.1
+spotipy==2.23.0
+pygame==2.5.2
+numpy==1.26.0
+tensorflow==2.13.0
+
+# GUI
+tkinter==0.1.0

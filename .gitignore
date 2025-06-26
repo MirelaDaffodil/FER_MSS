@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+
+# Environments
+venv/
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# System
+.DS_Store
+Thumbs.db
+
+# Spotify
+.spotifycache
+
+# Local media (uncomment if not tracking MP3s)
+# local_music/*.mp3
