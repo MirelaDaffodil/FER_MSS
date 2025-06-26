@@ -21,7 +21,7 @@ This Python application captures real-time facial emotions using your webcam and
 
 Install all dependencies with:
 
-
+```bash
 pip install -r requirements.txt
 You also need:
 
@@ -30,7 +30,9 @@ A webcam
 A valid Spotify Developer App (Client ID and Secret)
 
 📂 Folder Structure
-
+bash
+Copy
+Edit
 FER_MSS/
 ├── fer_mss.py              # Main application
 ├── requirements.txt        # Python dependencies
@@ -47,18 +49,24 @@ FER_MSS/
 🚀 How to Run
 Clone this repo and open a terminal:
 
-
+bash
+Copy
+Edit
 git clone https://github.com/MirelaDaffodil/FER_MSS.git
 cd FER_MSS
 Install dependencies:
 
-
+bash
+Copy
+Edit
 pip install -r requirements.txt
 Set up Spotify credentials (Client ID, Secret, Redirect URI) in the code.
 
 Run the app:
 
-
+bash
+Copy
+Edit
 python fer_mss.py
 💡 How It Works
 The app detects your face and emotions in real-time.
@@ -88,13 +96,13 @@ Pygame (for local MP3 playback)
 
 📷 Emotion Examples 
 Emotion	Caption	Music Type
-Happy 😊	Enjoy the moment! -	Upbeat track
-Sad 😢	It's okay to feel down sometimes -	Comforting melody
-Angry 😠	Take a deep breath and stay calm -	Calming sound
-Surprise 😲	Wow! That was unexpected! -	Energetic tune
-Fear 😨	Stay strong, you've got this! -	Soothing sounds
-Disgust 🤢	Something doesn't feel right? -	Neutral music
-Neutral 😐	A moment of calm and balance -	Relaxing track
+Happy 😊	Enjoy the moment!	Upbeat track
+Sad 😢	It's okay to feel down sometimes	Comforting melody
+Angry 😠	Take a deep breath and stay calm	Calming sound
+Surprise 😲	Wow! That was unexpected!	Energetic tune
+Fear 😨	Stay strong, you've got this!	Soothing sounds
+Disgust 🤢	Something doesn't feel right?	Neutral music
+Neutral 😐	A moment of calm and balance	Relaxing track
 
 📌 Notes
 ESC toggles fullscreen mode
